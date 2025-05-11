@@ -1,0 +1,10 @@
+lasersafety
+sphinx
+sphinx-rtd-theme
+myst-parser
+sphinx-argparse-cli
+sphinxcontrib-programoutput
+sphinx-prompt
+sphinx-exec-code
+docstr-coverage
+coverage-badge
