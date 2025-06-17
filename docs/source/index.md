@@ -43,5 +43,6 @@ api/laser
 api/en207
 api/en208
 api/modes
+api/classes
 api/utils
 ```
