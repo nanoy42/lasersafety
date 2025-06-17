@@ -1,6 +1,6 @@
 [project]
 name = "lasersafety"
-version = "0.9.0"
+version = "0.10.0"
 description = "A package for the computations of EN207 and EN208"
 authors = [{ name = "Yoann Piétri", email = "me@nanoy.fr" }]
 readme = "README.md"
