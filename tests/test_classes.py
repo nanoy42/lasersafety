@@ -7,6 +7,7 @@ class ClassesTest(unittest.TestCase):
     def test_classes(self):
         self.assertTrue(LaserClass.ONE == 1)
         self.assertTrue(LaserClass.ONE_M == 1)
+        self.assertTrue(LaserClass.ONE_C == 1)
         self.assertTrue(LaserClass.TWO == 2)
         self.assertTrue(LaserClass.TWO_M == 2)
         self.assertTrue(LaserClass.THREE_R == 3)
@@ -20,7 +21,8 @@ class ClassesTest(unittest.TestCase):
         self.assertTrue(LaserClass.TWO < 4)
 
         self.assertTrue(LaserClass.ONE < LaserClass.ONE_M)
-        self.assertTrue(LaserClass.ONE_M < LaserClass.TWO)
+        self.assertTrue(LaserClass.ONE_M < LaserClass.ONE_C)
+        self.assertTrue(LaserClass.ONE_C < LaserClass.TWO)
         self.assertTrue(LaserClass.TWO < LaserClass.TWO_M)
         self.assertTrue(LaserClass.TWO_M < LaserClass.THREE_B)
         self.assertTrue(LaserClass.THREE_R < LaserClass.THREE_B)
@@ -33,6 +35,7 @@ class ClassesTest(unittest.TestCase):
 
         self.assertEqual(str(LaserClass.ONE), "1")
         self.assertEqual(str(LaserClass.ONE_M), "1M")
+        self.assertEqual(str(LaserClass.ONE_C), "1C")
         self.assertEqual(str(LaserClass.TWO), "2")
         self.assertEqual(str(LaserClass.TWO_M), "2M")
         self.assertEqual(str(LaserClass.THREE_R), "3R")

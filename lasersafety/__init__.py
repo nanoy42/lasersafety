@@ -7,7 +7,7 @@
 A library for laser safety.
 """
 
-__version__ = "0.10.0"
+__version__ = "0.10.1"
 
 DISCLAIMER = """This code is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
 without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.

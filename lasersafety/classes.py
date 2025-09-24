@@ -33,11 +33,12 @@ class LaserClass(Enum):
 
     ONE = "1", 1, 1  #: Class 1
     ONE_M = "1M", 2, 1  #: Class 1M
-    TWO = "2", 3, 2  #: Class 2
-    TWO_M = "2M", 4, 2  #: Class 2M
-    THREE_R = "3R", 5, 3  #: Class 3R
-    THREE_B = "3B", 6, 3  #: Class 3B
-    FOUR = "4", 7, 4  #: Class 4
+    ONE_C = "1C", 3, 1
+    TWO = "2", 4, 2  #: Class 2
+    TWO_M = "2M", 5, 2  #: Class 2M
+    THREE_R = "3R", 6, 3  #: Class 3R
+    THREE_B = "3B", 7, 3  #: Class 3B
+    FOUR = "4", 8, 4  #: Class 4
 
     def __new__(cls, *args, **kwds):
         obj = object.__new__(cls)
